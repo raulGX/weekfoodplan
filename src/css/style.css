@@ -1,0 +1,7 @@
+#body {
+    font: 14px sans-serif, Arial;
+    margin: 0 auto;
+}
+nav .active{
+    color: mediumseagreen;
+}

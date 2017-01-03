@@ -2,6 +2,49 @@
     font: 14px sans-serif, Arial;
     margin: 0 auto;
 }
-nav .active{
-    color: mediumseagreen;
+
+/*nav bar*/
+@media only screen and (max-width: 800px) {
+    .my-navbar--rightside {
+        display: none;
+    }
+}
+nav{
+    box-shadow: 0 2px 5px 0 rgba(180, 180, 180, 0.2), 0 2px 10px 0 rgba(0,0,0,0.1);    
+    position: fixed;
+    top: 0;
+}
+nav .active {
+    color: mediumseagreen!important;
+}
+.my-navbar {
+    width: 100%;
+    height: 60px;
+    padding: 0 30px;
+    background-color: white;
+}
+.my-navbar--rightside {
+    float: right;
+
+}
+.my-navbar--rightside a {
+    text-decoration: none!important;
+    color: #9b9b9b;
+    padding: 10px 20px;
+    line-height: 60px;
+    font-size: 16px;
+}
+.my-navbar--rightside a:hover {
+    color: blue;
+}
+.my-navbar-brand {
+    float: left;
+    line-height: 60px;
+    height: 60px;
+}
+.my-navbar-brand a {
+    text-decoration: none!important;
+    color: green;
+    font-size: 16px;
+     padding: 10px 20px;
 }

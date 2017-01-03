@@ -3,10 +3,13 @@ import Navbar from './commons/Navbar'
 class App extends React.Component{
     render(){
         return(
-            <div className="container">
+            <div>
                 <Navbar />
-                {this.props.children}
+                <div className="container" style={{"padding-top": "100px"}}>
+                    {this.props.children}
+                </div>
             </div>
+
         );
     }
 }

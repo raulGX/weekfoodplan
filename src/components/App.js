@@ -5,7 +5,7 @@ class App extends React.Component{
         return(
             <div>
                 <Navbar />
-                <div className="container" style={{"padding-top": "100px"}}>
+                <div className="container">
                     {this.props.children}
                 </div>
             </div>
